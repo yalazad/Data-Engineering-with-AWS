@@ -1,4 +1,4 @@
-# Project 2: Data Warehouse
+# Project: Data Warehouse
 
 ## Introduction
 
