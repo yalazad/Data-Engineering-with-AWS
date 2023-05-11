@@ -1,5 +1,5 @@
 # Data-Engineering-with-AWS
-This repository contain the projects done as part of the above Udacity Data Engineering Nanodegree.  
+This repository contain the projects done as part of the Udacity Data Engineering Nanodegree.  
 Projects were completed for the four main modules of the course:  
 
 1) Data Modelling 
