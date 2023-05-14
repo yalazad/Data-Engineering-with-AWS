@@ -19,10 +19,10 @@ def get_table_counts(cur, conn):
         
 def main():
     '''
-    Connect to Redshift cluster. Load staging tables, insert data into analytic tables in Redshift.
+    Connect to Redshift cluster. Load staging tables, insert data into tables in Redshift.
     '''
     start_time = time.time()
-    print('Running analytics.py')
+    
     config = configparser.ConfigParser()
     config.read('dwh.cfg')
 
@@ -30,7 +30,6 @@ def main():
     cur = conn.cursor()
     
     get_table_counts(cur, conn)
-    print("analytics.py run time (s)", (time.time() - start_time))
 
     conn.close()
 
